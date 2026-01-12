@@ -145,6 +145,7 @@
     // AR Button
     document.body.appendChild(ARButton.createButton(renderer, {
       requiredFeatures: ["hit-test", "dom-overlay"],
+      optionalFeatures: ["plane-detection"],
       domOverlay: { root: document.body }
     }));
 
